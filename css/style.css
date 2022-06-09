@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: 1px solid lightgrey;
+    width: 80%;
+}
+
+
+.header-container{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+img{
+    width: 10%;
+}
+
+.navbar{
+    margin-left: 1em;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.main-container{
+    width: 80%;
+    margin: 0 auto;
+}
